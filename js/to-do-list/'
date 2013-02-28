@@ -1,0 +1,43 @@
+$(document).ready(function(){
+
+    $('form').submit(function(){
+        // clear the todo item box
+        $('input[name=todo_item]').val('');
+
+        // prevent the form from submitting
+        return false;
+    });
+
+    // attach an event handler that will fire when the submit button
+    // is clicked
+    $('input[type=submit]').click(function(){
+        // grab the todo item to append to the list
+        var todo_item = $('input[name=todo_item]').val();
+
+        // aggregate the markup
+        var new_table_row = "<tr>" +
+            "<td></td>" + 
+            "<td>" + todo_item + "</td>" + 
+            "<td><a href='javascript:void(0)'>Delete</a></td>" + 
+        "</tr>";
+
+        $('table tr:last').after(new_table_row);
+    });
+
+
+    $('tr a').click(function(event){
+        console.log('clicked');
+    });
+
+});
+
+
+
+/*
+function delete_row(e){
+
+    console.log(e);
+
+    //console.log('delete row');
+}
+*/

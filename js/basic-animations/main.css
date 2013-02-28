@@ -1,0 +1,21 @@
+div.box{
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+}
+
+div#red{
+    background-color: red;
+}
+
+div#blue{
+    background-color: blue;
+}
+
+div#orange{
+    background-color: orange;
+}
+
+div#pink{
+    background-color: pink;
+}

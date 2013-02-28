@@ -1,0 +1,23 @@
+html{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 2px solid white;
+    font-size: 72pt;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+}
+
+table td:hover{
+    cursor: pointer;
+}
