@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery form Validation</title>
+        <link rel='stylesheet' href='./main.css'>
+    </head>
+    <body>
+
+        <h1>Form Validation</h1>
+        <div id="notice">The form is invalid.</div>
+
+        <form action='#' method='post'>
+            <label>First Name:<br>
+            <input type='text' name='first_name' class='required'></label><br>
+
+            <label>Last Name:<br>
+            <input type='text' name='last_name' class='required'></label><br>
+
+            <label>Comments:<br>
+            <textarea name='comments' class='required'></textarea></label><br>
+
+            <label>Housing:<br>
+            <select name='housing'>
+                <option value="off_campus">Off-Campus</option>
+                <option value="on_campus">On-Campus</option>
+            </select></label><br> 
+
+            <label>Housing Comments:<br>
+            <textarea name='housing_comments'></textarea></label><br>
+
+            <br><input type='submit' value='Submit Survey'>
+        </form>
+    
+        <script src='./jquery.min.js'></script>
+        <script src='./main.js'></script>
+    </body>
+</html>

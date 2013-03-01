@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+div#notice{
+    background-color: pink;
+    border: 2px solid red;
+    color: red;
+    display: none;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 20px 0;
+    text-align: center;
+    width: 500px;
+}
+
+textarea[name=housing_comments]{
+    display: none;
+}
