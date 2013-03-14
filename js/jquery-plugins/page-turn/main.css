@@ -1,0 +1,13 @@
+#magazine{
+    width: 800px;
+    height: 400px;
+}
+
+#magazine .turn-page{
+    background-color:#ccc;
+    font-family: arial;
+}
+
+#magazine div.turn-page.p2 { background-color: red; }
+#magazine div.turn-page.p3 { background-color: orange; }
+#magazine div.turn-page.p4 { background-color: yellow; }
