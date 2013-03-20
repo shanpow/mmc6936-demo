@@ -1,0 +1,20 @@
+html{
+    background-color: #eee;
+    font-size: xx-large;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
+div#word_of_the_day{
+    color: blue;
+    text-align: center;
+}
+
+input{
+    display: block;
+    font-size: xx-large;
+    margin: 50px auto;
+}
