@@ -1,0 +1,15 @@
+#form_info{
+    color: white;
+    font-weight: bold;
+    line-height: 2em;
+    margin: 20px;
+    text-align: center;
+}
+
+#form_info.success{
+    background-color: green;
+}
+
+#form_info.failure{
+    background-color: red;
+}

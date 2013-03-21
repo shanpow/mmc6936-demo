@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJAX Form Processing</title>   
+        <link rel='stylesheet' href='./main.css'>
+    </head>
+    <body>
+        <h1>AJAX Form Processing</h1>
+
+        <div id='form_info'></div>
+
+        <form action="./form-processor.php" method="post">
+            <p><label>First name:<br>
+            <input type='text' name='first_name'></label></p>
+
+            <p><label>Last name:<br>
+            <input type='text' name='last_name'></label></p>
+
+            <p><label>Email Address:<br>
+            <input type='email' name='email_address'></label></p>
+
+            <p><label>Comments<br>
+            <textarea name='comments'></textarea></label></p>
+
+            <input type='submit' value='submit'>
+        </form>
+
+        <script src='./jquery.min.js'></script>
+        <script src='./main.js'></script>
+    </body>
+</html>
